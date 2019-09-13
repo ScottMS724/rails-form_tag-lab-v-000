@@ -8,7 +8,7 @@ class StudentsController < ApplicationController
     @student = Student.find(params[:id])
   end
   
-  a ef new
+  def new
   end
 
   def allowed_params
